@@ -15,12 +15,12 @@ App({
       // client.subscribe('test/topic', {
       //   qos: 1
       // });
-      client.on('message', (topic, message, packet) => {
+    });
+    client.on('message', (topic, message, packet) => {
         wx.showModal({
           title: topic,
           content: message.toString()
         });
       });
-    });
   }
 })
