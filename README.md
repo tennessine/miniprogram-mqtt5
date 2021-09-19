@@ -1,3 +1,1 @@
-# miniprogram-mqtt5
-miniprogram mqtt 5 use https://github.com/mqttjs/MQTT.js/
- 
+教程 https://w3hacker.com/course/mqttjs-for-beginners/210
